@@ -11,18 +11,18 @@ const About = () => {
     return (
         <div>
             <main>
-                <section class="projects" id="portfolio" data-aos="fade-up" data-aos-delay="50">
+                <section class="projects" id="portfolio" data-aos="fade-down" data-aos-delay="50">
                     <div className="container  mx-5 px-4">
                     <div className="row">
                         <div className="col-md container">
                         <h4>Selected project</h4>
 
                         <h1>ZOFFICE</h1>
-                        <a href="/ZOFFICE"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See project brief</button></a>
+                        <a href="/ZOFFICE"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See credentials</button></a>
                         <div> 
-                            <div>An app to empower remote working,</div>
-                            <div>build with love & warmth of human touch,</div>
-                            <div>powered by MERN, face recognition & Socket.IO</div>
+                            <div>Build with love & warmth of human touch,</div>
+                            <div>ZOFFICE empowers you in remote working.</div>
+                            <div>Powered by MERN, face recognition & Socket.IO</div>
                         </div>
                         </div>
                         <div className="col-md"></div>
@@ -35,7 +35,7 @@ const About = () => {
                 
              {/* ***********************  Project 2  ***********************  */}
 
-             <section id="UX" className="projects text-white" data-aos="fade-up" data-aos-delay="50">
+             <section id="UX" className="projects text-white" data-aos="fade-down" data-aos-delay="50">
                     <div className="container mx-5 px-5">
                     <div className="row">
                         <div className="col-md container">
@@ -56,17 +56,17 @@ const About = () => {
 
              {/* ***********************  Project 3  ***********************  */}
 
-             <section id="rideBuddy" className="projects" data-aos="fade-up" data-aos-delay="50">
+             <section id="rideBuddy" className="projects" data-aos="fade-down" data-aos-delay="50">
                     <div className="container mx-5 px-5">
                     <div className="row">
                         <div className="col-md">
                         <h4>Selected project</h4>
                         <h1>Ride Buddy</h1>
-                        <a href="/RideBuddy"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See project brief</button></a>
+                        <a href="/RideBuddy"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See credentials</button></a>
                         <div> 
-                            <div>An app that redefines daily commute,</div>
-                            <div>presenting clear incentive for users to connect,</div>
-                            <div>powered by HTML, PHP, MySQL and Javascript.</div>
+                            <div>Ride Buddy re-defines daily commute,</div>
+                            <div>presenting clear incentive for users to connect.</div>
+                            <div>Powered by PHP, MySQL and Javascript</div>
                         </div>
                         </div>
                         <div className="col-md"></div>

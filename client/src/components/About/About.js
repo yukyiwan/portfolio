@@ -20,7 +20,7 @@ const About = () => {
         <div>
        
             <main>
-                <section id="about" data-aos="fade-up" data-aos-delay="50">
+                <section id="about" data-aos="fade-down" data-aos-delay="50">
                     <div className="text-center container">
                     <div className="row">
                         <div className="col-md"></div>
@@ -48,7 +48,7 @@ const About = () => {
                 
              {/* ***********************  WORK EXPERIENCE  ***********************  */}
                 
-                <section id="work" data-aos="fade-up" data-aos-delay="50">
+                <section id="work" data-aos="fade-down" data-aos-delay="50">
                     <div className="text-center container">
                         <div className="row">
                             <div className="col-md container px-4 m-0">
@@ -107,7 +107,7 @@ const About = () => {
 
                 {/* <!-- ******************  EDUCATION & CERTIFICATIONS ****************** --> */}
                 
-                <section id="education"  data-aos="fade-up" data-aos-delay="50">
+                <section id="education"  data-aos="fade-down" data-aos-delay="50">
                     <div className="text-center container"> 
                     <h1>Education</h1>
                     <br/><br/>

@@ -124,9 +124,8 @@ i {
 }
 
 #home{
-background-image: url("./images/bg.jpeg");
 @include flexC();
-background-color:$secondary;
+background-color:$light;
 
 }
 
@@ -160,14 +159,17 @@ background-color:$secondary;
   @include flexC();
 }
 
-.projects--overview {
+.projects--details {
   @include flexCL();
   align-items: center;
   justify-content: center;
+    padding-right: $spacer;
+    padding-left: $spacer
 }
 
-.projects--overview--col {
-  margin-top:$spacer
+.projects--details--col {
+  margin-top:$spacer;
+
 }
 
 #messageB{
@@ -295,8 +297,10 @@ video, iframe{
     position: relative;
     width: 60%;
   }
-  .projects--overview--col {
-    margin-top:$spacer*1.5
+  .projects--details--col {
+    padding-top:$spacer;
+    justify-content:center;
+    padding-right:$spacer*3
   }
 }
 
@@ -319,7 +323,7 @@ video, iframe{
     height:100vh;
     background-image: url("./images/bg-me-03.jpg");
   }
-  #contact, .projects, .projects--overview, #cms {
+  #contact, .projects, .projects--details, #cms {
     height:100vh;
   }
   .projects {
