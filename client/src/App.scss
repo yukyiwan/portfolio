@@ -1,0 +1,424 @@
+
+/* Define standard variables and values for website */
+$primary: #968fad;
+$secondary: #25271c;
+$success:#eae3e3;
+$info: #565141;
+$dark: #d23e3a;
+$light:#f6ecdd;
+// $textcolor:white;
+// $textbody: #424242;
+// $otherfont: 'Quicksand';
+// $headings-font-family: 'Lato';
+// $headings-font-style:   sans-serif;
+// $headings-font-weight:  bold;
+// $headings-line-height:  1.2;
+// $headings-color: #393268;
+// $btnWidth: 85px;
+// $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+
+
+// Required
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+$font-headings: 'Josefin Sans', sans-serif;
+$font-heading: 'Playfair Display', serif;
+$font-body:'Lato', sans-serif;
+
+@mixin flexC {
+  height:100vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative; 
+  // background-size: 100vmax;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@mixin flexCL {
+  height:100vmax;
+  display: flex;
+  flex-direction: column;
+  padding-top:10%;
+  justify-content: space-between;
+  align-items: start;
+  text-align: left;
+  // background-size: 100vmax;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+// Required
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+body {
+  // background-image: url("./images/bg.jpeg");
+  font-family: $font-body;
+  color: $secondary
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  // font-size: 2em;
+  font-family: $font-headings;
+  // font-weight: bold
+}
+
+h1{
+  font-size: 4rem;
+  font-family: $font-heading;
+}
+
+i {
+  color: white;
+  font-size: 1.8rem;
+  &:active, &:hover{
+  color:  $primary
+  }
+}
+
+.projects i {
+  color: $secondary;
+  font-size: 3.6rem;
+  &:active, &:hover{
+  color:  $primary
+  }
+}
+
+#UX i {
+  color: $success;
+  font-size: 3.6rem;
+  &:active, &:hover{
+  color:  $primary
+  }
+}
+
+
+.navbar--bg-gradient {
+  // height:100px;
+  background: linear-gradient(to top, rgba($white,0.2), rgba($white,1));
+}
+
+#home{
+background-image: url("./images/bg.jpeg");
+@include flexC();
+background-color:$secondary;
+
+}
+
+#about, #contact {
+  @include flexC();
+}
+
+#work {
+  @include flexC();
+  background-color: #9b93b1;
+}
+
+#education {
+  @include flexC();
+  background-color: $light;
+}
+
+#logo{
+  width:60%;
+}
+
+.logo{
+  transform: rotateY(0);
+  transition: transform 2s;
+  &:hover{
+    transform: rotateY(6.284rad);
+  }
+}
+
+.projects, #cms {
+  @include flexC();
+}
+
+.projects--overview {
+  @include flexCL();
+  align-items: center;
+  justify-content: center;
+}
+
+.projects--overview--col {
+  margin-top:$spacer
+}
+
+#messageB{
+  background-color: $success;
+  position: absolute;
+  width: 100vw;
+  height: auto
+}
+
+#rideBuddy {
+  background-image: url("./images/bg-rb-s.jpg");
+}
+
+#UX {
+  background-color: black;
+  color: white;
+}
+#portfolio{
+  background-image: url("./images/bg-zo-s.jpg");
+}
+
+#zOWF {
+  background-image: url("./images/zo-wf-s.jpg");
+}
+
+#zOFP {
+  background-image: url("./images/zo-fp-l.jpg");
+}
+
+#zORS {
+  background-image: url("./images/zo-rs-l.jpg");
+}
+
+#UXRS {
+  background-image: url("./images/ux-rs-l.jpg");
+}
+
+#HM {
+  background-image: url("./images/hm-l.jpg");
+}
+#ZR {
+  background-image: url("./images/zr-pb-l.jpg");
+}
+#rBWF {
+  background-image: url("./images/rb-wf-s.jpg");
+}
+#rBAP {
+  background-image: url("./images/rb-ap-l.jpg");
+}
+#rBRS {
+  background-image: url("./images/rb-rs-l.jpg");
+}
+
+
+
+//videos
+video, iframe{
+  object-fit: cover;
+  height: 100vh;
+  width:auto;
+  left:50%;
+  top:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  z-index:-10
+}
+
+// #home video {
+//   height:100vmax;
+//   width: auto;
+// }
+
+.x--position {
+  position:fixed;
+  margin:0;
+  padding:0;
+  top:5px;
+  right:25px
+}
+
+.form--position {
+  position: relative;
+  width: 80%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #home, #about, #work, #education, #contact, .projects {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width:576px) {
+  #logo{
+    width:45%
+  }
+  #rideBuddy{
+    background-image: url("./images/bg-rb-ms.jpg");
+  }
+}
+
+@media (min-width:768px) {
+  #logo{
+    width:40%
+  }
+  #about {
+    background-image: url("./images/bg-me-01s.jpg");
+  }
+  #work {
+    background-image: url("./images/bg-me-02s.jpg");
+  }
+  #education {
+    background-image: url("./images/bg-me-03s.jpg");
+  }
+  #rideBuddy{
+    background-image: url("./images/bg-rb-mll.jpg");
+  }
+  #UX{
+    background-image: url("./images/bg-hz-ml.jpg");
+    color: $secondary
+  }
+  #portfolio{
+    background-image: url("./images/bg-zo-m.jpg");
+  }
+  .form--position {
+    position: relative;
+    width: 60%;
+  }
+  .projects--overview--col {
+    margin-top:$spacer*1.5
+  }
+}
+
+@media (min-width:992px) {
+  #logo{
+    width:30%
+  }
+  #home{
+    height:100vh;
+  }
+  #about {
+    height:100vh;
+    background-image: url("./images/bg-me-01.jpg");
+  }
+  #work {
+    height:100vh;
+    background-image: url("./images/bg-me-02.jpg");
+  }
+  #education {
+    height:100vh;
+    background-image: url("./images/bg-me-03.jpg");
+  }
+  #contact, .projects, .projects--overview, #cms {
+    height:100vh;
+  }
+  .projects {
+    @include flexCL();
+  }
+  #rideBuddy{
+    background-image: url("./images/bg-rb-mll.jpg");
+  }
+  #UX{
+    background-image: url("./images/bg-hz-ml.jpg");
+  }
+  #portfolio{
+    background-image: url("./images/bg-zo-m.jpg");
+  }
+  #zOWF {
+    background-image: url("./images/zo-wf-l.jpg");
+  }
+  #rBWF {
+    background-image: url("./images/rb-wf-l.jpg");
+  }
+}
+  
+@media (min-width: 1200px) {
+  #home{
+    height:100vh;
+  }
+  #about {
+    height:100vh;
+    background-image: url("./images/bg-me-01.jpg");
+  }
+  #work {
+    height:100vh;
+    background-image: url("./images/bg-me-02.jpg");
+  }
+  #education {
+    height:100vh;
+    background-image: url("./images/bg-me-03.jpg");
+  }
+  #contact, .projects {
+    height:100vh;
+  }
+
+  #rideBuddy{
+    background-image: url("./images/bg-rb-l.jpg");
+  }
+
+  #UX{
+    background-image: url("./images/bg-hz-l.jpg");
+  }
+
+  #portfolio{
+    background-image: url("./images/bg-zo-l.jpg");
+  }
+
+  #logo{
+    width:25%;
+    &:hover{
+      transform: rotateY(3.142rad);
+    }
+  }
+  
+}
+
+@media (min-width: 1300px) {
+  .projects section{
+    margin-left:auto
+  }
+  video, iframe{
+    width: 100vw;
+    height: 100vh
+  }
+  #logo{
+    width:20%;
+  }
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+  &:hover{
+    color:$primary;
+    text-decoration: underline;
+  }
+}
+
+button a{
+  text-decoration: none;
+  &:hover{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.position-relative{
+  width:80%;
+  height:80vh;
+}
+
+.btn--width{
+  width:100%;
+}
+
