@@ -24,7 +24,7 @@ const RideBuddy = () => {
                         <h1>Ride Buddy</h1>
                         <div className="mt-5"> 
                             <div>Ride Buddy re-defines daily commute,</div>
-                            <div>presenting clear incentive for users to connect.</div>
+                            <div>make it fun and thought-provoking.</div>
                             <div>Powered by PHP, MySQL and Javascript</div>
                             {/* <i><a href="http://www.corawan.com/ridebuddy" target="_blank"
                             rel="noopener noreferrer"><AppIndicator /></a></i>  */}
@@ -126,7 +126,7 @@ const RideBuddy = () => {
                                 <h2 className="mt-2"><span className="text-dark">Gamify</span> inherently imaginative <span className="text-dark">air-travel wonders</span></h2>
                         </div>
                         <div className="projects--details--col col-md container mt-3">
-                        <div>To hack into a crowded ride hailing space, we set focus in the first stage on the relatively untouched air travel space. We believe this will get Ride Buddy an elegant entry and gain traction, user familiarity of our interface and brand speedily. Version 1.0 and our eventual carpool game and targeting exact same group of audience.</div><br/>
+                        <div>To hack into a crowded ride hailing space, we set focus on the relatively untouched air travel space in the first stage of development. We believe this will get Ride Buddy an elegant entry and gain traction, user familiarity of our interface and brand speedily. Version 1.0 and our eventual carpool game and targeting exact same group of audience.</div><br/>
                         <div>We have created a gamified social network that presents clear incentive for users to connect for networking, socialising or romance in-flight (we will not define or limit their imagination!).</div><br/>
                         <div>Users will be able to find a Ridy Buddy before boarding or selecting their seats. They can scan the QR code all over the airport to access our app, entering their flight details and then locating other users who are also looking for a Ride Buddy.</div><br/>
                         <div>For users already boarded and be seated, they enjoy the liberty to connect with a Ride Buddy only when mutual liking is confirmed.</div>

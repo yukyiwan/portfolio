@@ -15,17 +15,16 @@ const About = () => {
                     <div className="container  mx-5 px-4">
                     <div className="row">
                         <div className="col-md container">
-                        <h4>Selected project</h4>
+                        <h5>Selected project</h5>
 
                         <h1>ZOFFICE</h1>
                         <a href="/ZOFFICE"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See credentials</button></a>
                         <div> 
                             <div>Build with love & warmth of human touch,</div>
-                            <div>ZOFFICE empowers you in remote working.</div>
+                            <div>ZOFFICE empowers remote working.</div>
                             <div>Powered by MERN, face recognition & Socket.IO</div>
                         </div>
                         </div>
-                        <div className="col-md"></div>
                         <div className="col-md"></div>
                     </div>
                     </div>
@@ -39,13 +38,13 @@ const About = () => {
                     <div className="container mx-5 px-5">
                     <div className="row">
                         <div className="col-md container">
-                        <h4>Selected project</h4>
+                        <h5>Selected project</h5>
                         <h1>UX face-off </h1>
                         <a href="/UX"><button type="button" class="btn btn-success btn-lg mt-3 mb-4">See case study</button></a>
                         <div> 
-                            <div>When customers visit H&M or Zara's e-shop, can they</div>
-                            <div>be directed to the latest collection to make a purchase?</div>
-                            <div>Check out the results of our user test & UX comparison!</div>
+                            <div>When users visit H&M or Zara's apps,</div>
+                            <div>can they find the latest collection?</div>
+                            <div>Check out our UX comparison's results!</div>
                         </div>
                         </div>
                         <div className="col-md"></div>
@@ -60,12 +59,12 @@ const About = () => {
                     <div className="container mx-5 px-5">
                     <div className="row">
                         <div className="col-md">
-                        <h4>Selected project</h4>
+                        <h5>Selected project</h5>
                         <h1>Ride Buddy</h1>
                         <a href="/RideBuddy"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See credentials</button></a>
                         <div> 
                             <div>Ride Buddy re-defines daily commute,</div>
-                            <div>presenting clear incentive for users to connect.</div>
+                            <div>make it fun and thought-provoking.</div>
                             <div>Powered by PHP, MySQL and Javascript</div>
                         </div>
                         </div>

@@ -11,8 +11,8 @@ const Navbar = () => {
     return (
         <div>
 
-            <h5><nav className="navbar fixed-top navbar-light navbar--bg-gradient px-5" data-aos="fade-down"  data-aos-delay="1000">
-                <a className="navbar-brand" href="/"><img className="logo" src="images/logoSDS.png" width="50px"/></a>
+            <h5><nav className="navbar fixed-top navbar-light navbar--bg-gradient px-2" data-aos="fade-down"  data-aos-delay="1000">
+                <a className="navbar-brand" href="/"><img className="logo" src="images/logoSDS.png"/></a>
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="/#portfolio">Work</a>

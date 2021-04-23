@@ -37,7 +37,7 @@ const Contact = () => {
                     <input type="text" className="form-control" id="name" placeholder="Chris Noth" value={postData.name} onChange={e=> setPostData({...postData, name: e.target.value})} required/>
                     </div>
 
-                    <div className="mb-2 text-left">e
+                    <div className="mb-2 text-left">
                     <small><label for="email" className="form-label my-0 py-0">Email address</label></small>
                     <input type="email" className="form-control" id="email" placeholder="me@chrisnoth.com" value={postData.email} onChange={e=> setPostData({...postData, email: e.target.value})} required/>
                     </div>

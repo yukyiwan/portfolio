@@ -35,9 +35,9 @@ const UX = () => {
                                         }}/></i> 
                         
                         <div className="mt-4 mb-5"> 
-                            <div>When customers visit H&M or Zara's e-shop, can they</div>
-                            <div>be directed to the latest collection to make a purchase?</div>
-                            <div>Check out the results of our user test & UX comparison!</div>
+                            <div>When users visit H&M or Zara's apps,</div>
+                            <div>can they find the latest collection?</div>
+                            <div>Check out our UX comparison's results!</div>
                         </div>
                         
                         </div>

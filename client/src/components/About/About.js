@@ -125,7 +125,7 @@ const About = () => {
                     </section>
 
                     <section id="edu2" onClick={()=>setShoweMore2(!showeMore2)}>
-                    <br/><br/><h5><div>Master of International and Public Affairs</div>
+                    <br/><br/><h5><div>Master of Int'l & Public Affairs</div>
                     <div>The University of Hong Kong | 2016-18</div></h5>
                     
                     {showeMore2?<div id="eMore2" className="text-info"><div>Global Issues | International Organizations | US-China Relations </div></div>:null}

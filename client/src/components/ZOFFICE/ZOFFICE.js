@@ -20,7 +20,7 @@ const ZOFFICE = () => {
         <div>
         {showCover? <Navbar />:null}
         <main>
-                <section class="projects" id="portfolio" data-aos="fade-down" data-aos-delay="50">
+                <section class="projects" id="portfolio" data-aos="fade-up" data-aos-delay="50">
                 
                     {showCover? 
                     <div className="container mx-5 px-5">
@@ -37,7 +37,7 @@ const ZOFFICE = () => {
                         <div className="mt-4 mb-5"> 
                             
                             <div>Build with love & warmth of human touch,</div>
-                            <div>An office social network to empower remote working.</div>
+                            <div>ZOFFICE empowers remote working.</div>
                             <div>Powered by MERN, face recognition & Socket.IO</div>
                         </div>
                         
@@ -78,7 +78,7 @@ const ZOFFICE = () => {
                     
              {/* ***********************  Overview  ***********************  */}
 
-             <section class="projects--details" data-aos="fade-down" data-aos-delay="50">
+             <section class="projects--details" data-aos="fade-up" data-aos-delay="50">
                     <div className="container  mx-5 px-4">
                     <div className="row">
                         <div className="col-md">
@@ -110,13 +110,13 @@ const ZOFFICE = () => {
                 
              {/* ***********************  Low fidelity wireframe  ***********************  */}
 
-            <section id="zOWF" className="projects" data-aos="fade-down" data-aos-delay="50">
+            <section id="zOWF" className="projects" data-aos="fade-up" data-aos-delay="50">
             </section>
 
 
              {/* ***********************  Challenges  ***********************  */}
             
-             <section class="projects--details" data-aos="fade-down" data-aos-delay="50">
+             <section class="projects--details" data-aos="fade-up" data-aos-delay="50">
              <div className="container  mx-5 px-4">
                     <div className="row">
                         <div className="col-md">
@@ -124,7 +124,7 @@ const ZOFFICE = () => {
                                 <h2 className="mt-2"><span className="text-dark">Balance</span> privacy and shared presence in the <span className="text-dark">augmented reality</span></h2>
                         </div>
                         <div className="projects--details--col col-md container">
-                            <div>It is human nature that we resist change. The most common officer communication interface, such as email and instant messaging systems, has been around for decades. In order to engage the modern workforce in the new normal, ZOFFICE’s interface must take a new look that not only match with users’ existing habits and expectations, but also having extra charms to appeal to them.</div><br/>
+                            <div>It is human nature that we resist change. The most common office communication interface, such as email and instant messaging systems, has been around for decades. In order to engage the modern workforce in the new normal, ZOFFICE’s interface must take a new look that not only match with users’ existing habits and expectations, but also having extra charms to appeal to them.</div><br/>
                             <div>While ZOFFICE is aimed to actualise a physical office’s user interface and user experience, we are consciously aware that a shared sense of presence enabled by technologies inevitably involves capturing one’s digital footprint and imagery. Therefore, the design of ZOFFICE must strike a balance between one’s private and shared presence in the augmented reality, safeguarding an employee’s reasonable sense of privacy.</div><br/>
                         <div className="my-5 text-right">
                                 <small><Typewriter
@@ -142,11 +142,11 @@ const ZOFFICE = () => {
                                                     
              {/* ***********************  Low fidelity wireframe  ***********************  */}
 
-            <section id="zOFP" className="projects" data-aos="fade-down" data-aos-delay="50">
+            <section id="zOFP" className="projects" data-aos="fade-up" data-aos-delay="50">
             </section>
 
             {/* ***********************  Strategy  ***********************  */}  
-            <section class="projects--details" data-aos="fade-down" data-aos-delay="50">
+            <section class="projects--details" data-aos="fade-up" data-aos-delay="50">
             <div className="container  mx-5 px-4">
                     <div className="row">
                         <div className="col-md">
@@ -171,14 +171,14 @@ const ZOFFICE = () => {
                 </div>
                 </section>  
             {/* *********************** Results visual  ***********************  */}
-            <section class="projects" data-aos="fade-down" data-aos-delay="50">
+            <section class="projects" data-aos="fade-up" data-aos-delay="50">
                 
                 <video autoPlay loop>   
                         <source src="videos/ZOFFICE1.mp4" type="video/mp4"/>
                 </video>
             </section>
             {/* *********************** Results ***********************  */}
-            <section class="projects--details" data-aos="fade-down" data-aos-delay="50">
+            <section class="projects--details" data-aos="fade-up" data-aos-delay="50">
             <div className="container  mx-5 px-4">
                     <div className="row">
                         <div className="col-md">
@@ -186,9 +186,9 @@ const ZOFFICE = () => {
                                 <h2 className="mt-2">Virtual office with <span className="text-dark">warmth</span></h2>
                         </div>
                         <div className="projects--details--col col-md container mt-3">
-                            <div>ZOFFICE represents an upgraded office interface that extends remote working to the modern workforce even after the global pandemic is over. Central to the design of ZOFFICE is extending human touch and warmth offered by physical office to virtual office. Staff will be able to see their colleagues’ avatars being seated next to them, sharing a sense of mutual presence even in the virtual office.</div><br/>
-                            <div>Through dynamically switching WebRTC on every 15 minutes, we are able to capture the imagery and verify the presence of a staff through artificial intelligence empowered by a face recognition API. This enable the system to provide the transparency of staff’s presence to everyone, during the office hours, even when some of the staffs are working remotely. ZOFFICE seeks to protect the privacy of staff, with the camera being turned off most of the time.</div><br/>
-                            <div>While retaining an office communication application’s functionalities, including personal profile, audio & video streaming, group chat and direct messaging services, ZOFFICE adds value by rendering the presence of your team through the augmented reality.</div><br/>
+                            <div>ZOFFICE represents an upgraded office interface that extends remote working to the modern workforce even after the global pandemic is over. Central to the design of ZOFFICE is extending human touch and warmth offered by a physical office to a virtual office. Staff will be able to see their colleagues’ avatars be seated next to them, sharing a sense of mutual presence even in a virtual office.</div><br/>
+                            <div>Through dynamically switching WebRTC on and off every 15 minutes, we are able to capture imagery and verify presence of a staff through artificial intelligence empowered by face recognition technologies. This enable the system to provide transparency of staff’s presence to everyone, during the office hours, even when some of the staffs are working remotely.</div><br/>
+                            <div>While retaining an office communication application’s functionalities, including personal profile, audio & video streaming, group chat and direct messaging services, ZOFFICE adds value by rendering the presence of your team through an augmented reality.</div><br/>
                             <div className="my-5 text-right">
                                 <small><Typewriter
                                         options={{
@@ -205,7 +205,7 @@ const ZOFFICE = () => {
             </section>  
 
             {/* *********************** Results visual  ***********************  */}
-            <section id="zORS" className="projects" data-aos="fade-down" data-aos-delay="50">
+            <section id="zORS" className="projects" data-aos="fade-up" data-aos-delay="50">
             </section>
               
         </main>
