@@ -117,14 +117,12 @@ i {
 
 
 .navbar--bg-gradient {
-  // height:100px;
   background: linear-gradient(to top, rgba($white,0.2), rgba($white,1));
 }
 
 #home{
 @include flexC();
-background-color:$light;
-background-image: url("./images/bg.jpeg");
+background-color:$light
 }
 
 #about, #contact {
@@ -247,12 +245,12 @@ video, iframe{
 }
 
 @media (max-width:576px){
-#home video {
-  display: none
-}
-}
-
-@media (max-width:450px){
+  #home video {
+    display: none
+  }
+  #home{
+    background-image: url("./images/bg.jpeg");
+  }
   .projects--details{
     height:150vh
   }
@@ -311,6 +309,7 @@ video, iframe{
   #rideBuddy{
     background-image: url("./images/bg-rb-ms.jpg");
   }
+  
 }
 
 @media (min-width:768px) {

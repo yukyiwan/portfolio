@@ -24,7 +24,7 @@ const RideBuddy = () => {
                         <h1>Ride Buddy</h1>
                         <div className="mt-5"> 
                             <div>Ride Buddy re-defines daily commute,</div>
-                            <div>make it fun and thought-provoking.</div>
+                            <div>making it fun and thought-provoking.</div>
                             <div>Powered by PHP, MySQL and Javascript</div>
                             {/* <i><a href="http://www.corawan.com/ridebuddy" target="_blank"
                             rel="noopener noreferrer"><AppIndicator /></a></i>  */}

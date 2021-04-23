@@ -44,7 +44,7 @@ const About = () => {
                         <div> 
                             <div>When users visit H&M or Zara's apps,</div>
                             <div>can they find the latest collection?</div>
-                            <div>Check out our UX comparison's results!</div>
+                            <div>Check out our UX comparison results!</div>
                         </div>
                         </div>
                         <div className="col-md"></div>
@@ -64,7 +64,7 @@ const About = () => {
                         <a href="/RideBuddy"><button type="button" class="btn btn-secondary btn-lg mt-3 mb-4">See credentials</button></a>
                         <div> 
                             <div>Ride Buddy re-defines daily commute,</div>
-                            <div>make it fun and thought-provoking.</div>
+                            <div>makeing it fun and thought-provoking.</div>
                             <div>Powered by PHP, MySQL and Javascript</div>
                         </div>
                         </div>

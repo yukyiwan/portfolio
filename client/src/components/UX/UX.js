@@ -37,7 +37,7 @@ const UX = () => {
                         <div className="mt-4 mb-5"> 
                             <div>When users visit H&M or Zara's apps,</div>
                             <div>can they find the latest collection?</div>
-                            <div>Check out our UX comparison's results!</div>
+                            <div>Check out our UX comparison results!</div>
                         </div>
                         
                         </div>
