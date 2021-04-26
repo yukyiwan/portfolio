@@ -33,10 +33,10 @@ const Post = ({post})=> {
 
     return (
 
-        <Card style={{ width: '18rem' }} className="my-2">
+        <Card style={{ width: '18rem' }} className="my-3">
         
         <Card.Img variant="top" src={postData.image} />
-        <Card.Body>
+        <Card.Body className="text-left">
             <Card.Text className="text-muted"><small> {timeStamp}</small></Card.Text>
             <Card.Title className="py-0 my-1">{postData.name}</Card.Title>
             

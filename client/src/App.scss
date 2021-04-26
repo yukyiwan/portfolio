@@ -134,6 +134,11 @@ padding-right: $spacer*2
   @include flexC();
 }
 
+#mBoard {
+  @include flexC();
+  height:auto;
+}
+
 #work {
   @include flexC();
   background-color: #9b93b1;
@@ -250,11 +255,10 @@ video, iframe{
 }
 
 @media (max-width:500px) {
-  #work, #education{
-    height:110vh;
-  }
-  .projects--details{
-    height:150vh
+    #about, #work, #education, .projects--details{
+    min-height: 100vh;
+    height:auto;
+    padding: 20% 5%;
   }
   .nav{
     font-size: 1.2rem;
@@ -285,16 +289,7 @@ video, iframe{
 
 @media (max-width:350px){
 
-  #about, #work, #education{
-    height:150vh;
-  }
 
-  #contact{
-    height:110vh,
-  }
-  .projects--details{
-    height:220vh
-  }
   i {
     font-size: 1.25rem;
   }

@@ -9,12 +9,12 @@ const Posts = ()=> {
     const posts = useSelector ((state)=>state.posts); 
 
     return (
-    <>
+    <div>
         <NavCMS />
-        <div className="p-5">
-        <Container className="m-0 p-0">
-            <h1 className="text-center"></h1>
-            <Row className="p-5">
+        <div id="mBoard">
+        <Container className="m-0 p-0 d-flex justify-content-center">
+            {/* <h1 className="text-center bg"></h1> */}
+            <Row className="m-5 p-5">
 
             {posts.map((post) => (
                 <Col>
@@ -24,7 +24,7 @@ const Posts = ()=> {
             </Row>
         </Container>
         </div>
-    </>
+    </div>
     )
 }
 
