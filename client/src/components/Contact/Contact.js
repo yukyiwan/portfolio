@@ -95,7 +95,7 @@ const Contact = () => {
 
                     </div>
                 
-                    <div>1430 Trafamdar Road, Oakville, Ontario, L6H 2L1 | <a href="tel:+1-905-815-4150">+1-905-815-4150 (ext.: 72628)</a> | <a href="mailto:corawan@outlook.com">corawan@outlook.com</a></div>
+                    <div>1430 Trafamdar Road, Oakville, Ontario, L6H 2L1 | <a href="tel:+1-905-815-4150">+1-905-815-4150 (ext.: 72628)</a> | <a href="mailto:wanyuk@sheridancollege.ca">wanyuk@sheridancollege.ca</a></div>
                     
                     <small className="text-success-50"><a href="/CMS">© 2021 All Rights Reserved</a></small><br/>
 

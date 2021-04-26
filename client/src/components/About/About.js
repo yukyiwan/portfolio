@@ -21,7 +21,7 @@ const About = () => {
        
             <main>
                 <section id="about" data-aos="fade-down" data-aos-delay="50">
-                    <div className="text-center container">
+                    <div className="text-center container px-4">
                     <div className="row">
                         <div className="col-md"></div>
                         <div className="col-md container px-4 m-0">
@@ -49,7 +49,7 @@ const About = () => {
              {/* ***********************  WORK EXPERIENCE  ***********************  */}
                 
                 <section id="work" data-aos="fade-down" data-aos-delay="50">
-                    <div className="text-center container">
+                    <div className="text-center container px-4">
                         <div className="row">
                             <div className="col-md container px-4 m-0">
                                     <h1 id="wBlock">Experience</h1><br/><br/>
@@ -108,7 +108,7 @@ const About = () => {
                 {/* <!-- ******************  EDUCATION & CERTIFICATIONS ****************** --> */}
                 
                 <section id="education"  data-aos="fade-down" data-aos-delay="50">
-                    <div className="text-center container"> 
+                    <div className="text-center container px-4"> 
                     <h1>Education</h1>
                     <br/><br/>
 

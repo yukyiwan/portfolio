@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import Navbar from '../Navbar/Navbar'
 import Contact from '../Contact/Contact'
-// import {AppIndicator} from 'react-bootstrap-icons';
+import {AppIndicator} from 'react-bootstrap-icons';
 import Typewriter from 'typewriter-effect';
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
@@ -23,11 +23,9 @@ const RideBuddy = () => {
                         <h7>PHP | MySQL | JAVASCRIPT</h7>
                         <h1>Ride Buddy</h1>
                         <div className="mt-5"> 
-                            <div>Ride Buddy re-defines daily commute,</div>
-                            <div>making it fun and thought-provoking.</div>
-                            <div>Powered by PHP, MySQL and Javascript</div>
-                            {/* <i><a href="http://www.corawan.com/ridebuddy" target="_blank"
-                            rel="noopener noreferrer"><AppIndicator /></a></i>  */}
+                            <div>Ride Buddy re-defines daily commute, making it fun and thought-provoking. It's powered by PHP, MySQL and Javascript</div>
+                            <i><a href="https://github.com/yukyiwan/RideBuddy" target="_blank"
+                            rel="noopener noreferrer"><AppIndicator /></a></i> 
                             <div className="my-5">
                                 <small><Typewriter
                                         options={{
@@ -39,6 +37,7 @@ const RideBuddy = () => {
                         </div>
                         </div>
                         </div>
+                        <div className="col-md"></div>
                         <div className="col-md"></div>
                     </div>
                     </div>
@@ -147,7 +146,7 @@ const RideBuddy = () => {
             {/* *********************** Results visual  ***********************  */}
             <section class="projects" data-aos="fade-down" data-aos-delay="50">
                 
-                <video autoPlay loop>   
+                <video autoPlay muted playsInline loop>   
                         <source src="videos/Journey.mp4" type="video/mp4"/>
                 </video>
             </section>

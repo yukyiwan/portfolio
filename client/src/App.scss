@@ -40,7 +40,7 @@ $font-body:'Lato', sans-serif;
   align-items: center;
   overflow: hidden;
   position: relative; 
-  // background-size: 100vmax;
+  background-size: 100vmax;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -59,7 +59,7 @@ $font-body:'Lato', sans-serif;
   justify-content: space-between;
   align-items: start;
   text-align: left;
-  // background-size: 100vmax;
+  background-size: 100vmax;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -115,6 +115,9 @@ i {
   }
 }
 
+.nav{
+  padding-right:$spacer;
+}
 
 .navbar--bg-gradient {
   background: linear-gradient(to top, rgba($white,0.2), rgba($white,1));
@@ -122,7 +125,9 @@ i {
 
 #home{
 @include flexC();
-background-color:$light
+background-color:$light;
+padding-left: $spacer*2;
+padding-right: $spacer*2
 }
 
 #about, #contact {
@@ -140,14 +145,14 @@ background-color:$light
 }
 
 #logo{
-  width:50%;
+  width:40%;
 }
 
 .navbar-brand img {
   width: 50px
 }
 .navbar-brand {
- padding-left: $spacer*1.5
+ padding-left: $spacer*2
 }
 
 .logo{
@@ -163,9 +168,9 @@ background-color:$light
 }
 
 .projects--details {
-  @include flexCL();
-  align-items: center;
-  justify-content: center;
+    @include flexCL();
+    align-items: center;
+    justify-content: center;
     padding-right: $spacer;
     padding-left: $spacer
 }
@@ -244,44 +249,70 @@ video, iframe{
   height: 100vmax
 }
 
-@media (max-width:576px){
-  #home video {
-    display: none
-  }
-  #home{
-    background-image: url("./images/bg.jpeg");
+@media (max-width:500px) {
+  #work, #education{
+    height:110vh;
   }
   .projects--details{
     height:150vh
   }
-  .navbar{
-    font-size: 1rem;
+  .nav{
+    font-size: 1.2rem;
+    padding-right: $spacer
   }
   .navbar-brand img {
     width: 35px
   }
   .navbar-brand {
-    padding-left: 10px
-  }
-  body {
-    font-size: .9rem;
+    padding-left: $spacer
   }
   h1{
     font-size: 2.5rem;
   }
   h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   h4{
     font-size: 1.25rem;
   }
   h5{
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   h7{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:350px){
+
+  #about, #work, #education{
+    height:150vh;
+  }
+
+  #contact{
+    height:110vh,
+  }
+  .projects--details{
+    height:220vh
+  }
+  i {
+    font-size: 1.25rem;
+  }
+  .footer{
     font-size: .8rem;
+    padding: 0
   }
+  .nav{
+    font-size: 1rem;
+    padding-right: 0
   }
+}
+
+@media (max-width:576px) and (min-height:800px) {
+  .projects--details{
+    height:110vh
+  }
+}
 
 .x--position {
   position:fixed;

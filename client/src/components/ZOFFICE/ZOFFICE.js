@@ -36,15 +36,14 @@ const ZOFFICE = () => {
                         
                         <div className="mt-4 mb-5"> 
                             
-                            <div>Build with love & warmth of human touch,</div>
-                            <div>ZOFFICE empowers remote working.</div>
-                            <div>Powered by MERN, face recognition & Socket.IO</div>
+                        <div>Build with love & warmth of human touch, ZOFFICE empowers remote working. It's powered by MERN, face recognition & Socket.IO.</div>
+
                         </div>
                         
                         </div>
 
                         <div className="col-md"></div>
-                        {/* <div className="col-md"></div> */}
+                        <div className="col-md"></div>
                         </div>
 
                         <div className="my-3">
@@ -66,7 +65,7 @@ const ZOFFICE = () => {
                                         setShowVideo(false)
                                         setShowCover(true)
                                         }}/></i> 
-                <video controls autoPlay>
+                <video autoPlay controls>
                         <source src="videos/ZOFFICE.mp4" type="video/mp4"/>
                 </video>
                 
@@ -83,8 +82,7 @@ const ZOFFICE = () => {
                     <div className="row">
                         <div className="col-md">
                             <h7>OVERVIEW</h7>
-                            <h2 className="mt-2">Remote working will <span className="text-dark">end</span></h2>
-                            <h2>after Covid-19</h2>
+                            <h2 className="mt-2">Remote working will <span className="text-dark">end</span> after Covid-19</h2>
                         </div>
                         <div className="projects--details--col col-md container">
                             <div>“The pandemic has pushed employees and customers online at an unprecedented pace, creating an urgent imperative for rapid digital transformation” --- Boston Consulting Group, 2020</div><br/>
@@ -173,7 +171,7 @@ const ZOFFICE = () => {
             {/* *********************** Results visual  ***********************  */}
             <section class="projects" data-aos="fade-up" data-aos-delay="50">
                 
-                <video autoPlay loop>   
+                <video autoPlay muted playsInline loop>   
                         <source src="videos/ZOFFICE1.mp4" type="video/mp4"/>
                 </video>
             </section>
